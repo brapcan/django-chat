@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "~=3.1.1"
 
 [dev-packages]
+django-chat-app = {editable = true, path = "."}
+cookiecutter = "*"
+coverage = "*"
+build = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.7"
